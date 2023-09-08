@@ -21,7 +21,7 @@ public class GetQA{
    
    /** initilizes the green deck of cards */
       try{
-         Scanner scanFile = new Scanner(new File("GameQuestions/" + version + "GreenQuestions.txt"));
+         Scanner scanFile = new Scanner(new File("src/GameQuestions/" + version + "GreenQuestions.txt"));
          while(scanFile.hasNextLine()){
             String s = scanFile.nextLine();
             String[] card = s.split("@");
@@ -32,7 +32,7 @@ public class GetQA{
     
     /** initilizes the yellow deck of cards */  
       try{
-         Scanner scanFile = new Scanner(new File("GameQuestions/" + version + "YellowQuestions.txt"));
+         Scanner scanFile = new Scanner(new File("src/GameQuestions/" + version + "YellowQuestions.txt"));
          while(scanFile.hasNextLine()){
             String s = scanFile.nextLine();
             String[] card = s.split("@");
@@ -43,7 +43,7 @@ public class GetQA{
       
     /** initilizes the red deck of cards */
       try{
-         Scanner scanFile = new Scanner(new File("GameQuestions/" + version + "RedQuestions.txt"));
+         Scanner scanFile = new Scanner(new File("src/GameQuestions/" + version + "RedQuestions.txt"));
          while(scanFile.hasNextLine()){
             String s = scanFile.nextLine();
             String[] card = s.split("@");
@@ -54,7 +54,7 @@ public class GetQA{
     
     /** initilizes the blue deck of cards */
       try{
-         Scanner scanFile = new Scanner(new File("GameQuestions/" + version + "BlueQuestions.txt"));
+         Scanner scanFile = new Scanner(new File("src/GameQuestions/" + version + "BlueQuestions.txt"));
          while(scanFile.hasNextLine()){
             String s = scanFile.nextLine();
             String[] card = s.split("@");
